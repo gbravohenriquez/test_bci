@@ -1,0 +1,160 @@
+{
+	"id": "e37436de-d3fc-2e5f-b1b0-735e39051e26",
+	"name": "Test Bci",
+	"description": "",
+	"order": [
+		"540110f6-d954-dc2f-7633-df8dbc2383d1",
+		"29ddb3f4-9851-1003-4c03-b0ca4cefb702",
+		"fe9ea1c9-61d4-673f-5357-7c172bfb6812",
+		"ba2bccdf-7bff-b901-4318-1e3ae595c92a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1627259098854,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "29ddb3f4-9851-1003-4c03-b0ca4cefb702",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJpZEpXVCIsInN1YiI6IlBlZHJvMiIsImF1dGhvcml0aWVzIjpbInJvbGVfdXNlciJdLCJpYXQiOjE2MjcyODUzOTAsImV4cCI6MTYyNzI4NTk5MH0.OWZ6c5d5S-aF3unNk8hENXz44xzW9sSuuV2g1pi1x5DAC3dQQQ35BEQUo6mK5ttDG_1lvNtR5ObUw702umeGHA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJpZEpXVCIsInN1YiI6IlBlZHJvMiIsImF1dGhvcml0aWVzIjpbInJvbGVfdXNlciJdLCJpYXQiOjE2MjcyODUzOTAsImV4cCI6MTYyNzI4NTk5MH0.OWZ6c5d5S-aF3unNk8hENXz44xzW9sSuuV2g1pi1x5DAC3dQQQ35BEQUo6mK5ttDG_1lvNtR5ObUw702umeGHA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/all",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e37436de-d3fc-2e5f-b1b0-735e39051e26",
+			"data": [],
+			"dataMode": "raw",
+			"name": "all",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627285495269,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"name\" : \"Jose\",\r\n    \"email\" : \"Prueba@Prueba\",\r\n    \"password\" : \"Prueba12\",\r\n    \"phone\":[\r\n        {\r\n            \"number\": 1,\r\n            \"citycode\": 1, \r\n            \"countrycode\": 1 \r\n        }\r\n    ] \r\n}"
+		},
+		{
+			"id": "540110f6-d954-dc2f-7633-df8dbc2383d1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e37436de-d3fc-2e5f-b1b0-735e39051e26",
+			"data": [],
+			"dataMode": "raw",
+			"name": "create",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627285482433,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"name\" : \"Pedro\",\r\n    \"email\" : \"Pedrosa2@Prueba.cl\",\r\n    \"password\" : \"Prueba123\",\r\n    \"phones\":[\r\n        {\r\n            \"number\": 6767,\r\n            \"citycode\": 6767, \r\n            \"countrycode\": 6767 \r\n        }\r\n    ] \r\n}"
+		},
+		{
+			"id": "ba2bccdf-7bff-b901-4318-1e3ae595c92a",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJpZEpXVCIsInN1YiI6IlBlZHJvIiwiYXV0aG9yaXRpZXMiOlsicm9sZV91c2VyIl0sImlhdCI6MTYyNzI4NTM3NSwiZXhwIjoxNjI3Mjg1OTc1fQ.b468MIcX_BXyz71aEw9SD5DRCl0LP-UanHCxGAqZci73Z0wNTisvXrbVw1X2OtM0uTjXFtR2Z6l0i_AAV9BLDg\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJpZEpXVCIsInN1YiI6IlBlZHJvIiwiYXV0aG9yaXRpZXMiOlsicm9sZV91c2VyIl0sImlhdCI6MTYyNzI4NTM3NSwiZXhwIjoxNjI3Mjg1OTc1fQ.b468MIcX_BXyz71aEw9SD5DRCl0LP-UanHCxGAqZci73Z0wNTisvXrbVw1X2OtM0uTjXFtR2Z6l0i_AAV9BLDg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/delete",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "e37436de-d3fc-2e5f-b1b0-735e39051e26",
+			"data": [],
+			"dataMode": "raw",
+			"name": "delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627285638789,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"name\" : \"Guillermo\",\r\n    \"email\" : \"Pedro3@Prueba.cl\",\r\n    \"password\" : \"Prueba123\",\r\n    \"phones\":[\r\n        {\r\n            \"number\": 55,\r\n            \"citycode\": 55, \r\n            \"countrycode\": 55 \r\n        }\r\n    ] \r\n}"
+		},
+		{
+			"id": "fe9ea1c9-61d4-673f-5357-7c172bfb6812",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJpZEpXVCIsInN1YiI6IlBlZHJvIiwiYXV0aG9yaXRpZXMiOlsicm9sZV91c2VyIl0sImlhdCI6MTYyNzI4NTM3NSwiZXhwIjoxNjI3Mjg1OTc1fQ.b468MIcX_BXyz71aEw9SD5DRCl0LP-UanHCxGAqZci73Z0wNTisvXrbVw1X2OtM0uTjXFtR2Z6l0i_AAV9BLDg\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJpZEpXVCIsInN1YiI6IlBlZHJvIiwiYXV0aG9yaXRpZXMiOlsicm9sZV91c2VyIl0sImlhdCI6MTYyNzI4NTM3NSwiZXhwIjoxNjI3Mjg1OTc1fQ.b468MIcX_BXyz71aEw9SD5DRCl0LP-UanHCxGAqZci73Z0wNTisvXrbVw1X2OtM0uTjXFtR2Z6l0i_AAV9BLDg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/update",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "e37436de-d3fc-2e5f-b1b0-735e39051e26",
+			"data": [],
+			"dataMode": "raw",
+			"name": "update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1627285578131,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"name\" : \"Guillermo\",\r\n    \"email\" : \"Pedro3@Prueba.cl\",\r\n    \"password\" : \"Prueba123\",\r\n    \"phones\":[\r\n        {\r\n            \"number\": 55,\r\n            \"citycode\": 55, \r\n            \"countrycode\": 55 \r\n        }\r\n    ] \r\n}"
+		}
+	]
+}
